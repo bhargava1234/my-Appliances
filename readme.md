@@ -5,7 +5,7 @@
 
 ```bash
 create database
-git https://github.com/bhargava1234/my-Appliances.git
+git clone  https://github.com/bhargava1234/my-Appliances.git
 cd my-Appliances
 php -r "file_exists('.env') || copy('.env.example', '.env');"
 composer install
