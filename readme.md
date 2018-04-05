@@ -9,6 +9,7 @@ git clone  https://github.com/bhargava1234/my-Appliances.git
 cd my-Appliances
 php -r "file_exists('.env') || copy('.env.example', '.env');"
 composer install
+php artisan key:generate
 php artisan migrate
 php artisan db:seed
 php artisan serve
